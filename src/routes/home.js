@@ -1,8 +1,20 @@
-import Portfolio from "./portfolio"
+import "animate.css";
+import "./home.css"
 
 function Home(){
     return (
-        <h1>oh yea</h1>
+        <div className="content header">
+            <div className='header__bg'></div>
+            <section className="aboutMe">
+                <div className="animate__animated animate__zoomIn" id="profilePhoto" alt="My wife and I"></div>
+                <div className=' animate__animated animate__zoomInLeft'>
+                    <h1>Hello, I'm <span> MATT</span></h1>
+                    <p className=''>
+                        I build responsive websites 
+                    </p>
+                </div>
+            </section>
+        </div>
     )
 }
 
