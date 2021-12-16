@@ -7,18 +7,14 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-
     z-index: 1;
+    border-bottom: 2px solid blue;
 }
 
 a{
     margin: 10px;
     text-decoration: none;
     color: #9a9d97;
-}
-
-a:first-child {
-    color: black;
 }
 
 .links{

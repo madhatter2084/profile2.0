@@ -43,13 +43,16 @@ h1{
     transform-origin: top left;
   }
 
-  span{
+  .blue{
       color: blue;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     #profilePhoto {
-        display: none;
+        height: 280px;
+        width: 250px;
+        object-fit: cover;
+        
     }
 
     .aboutMe{
