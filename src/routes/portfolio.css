@@ -16,17 +16,21 @@
     margin: 20px;
     align-items: center;
     border-radius: 10%;
-    box-shadow: 10px -16px #25a2fe;
+    box-shadow: 10px 16px #25a2fe;
 }
 
 .screenShot{
     width: 240px;
     height: 117px;
     margin: 10px;
+    box-shadow: 10px 5px 5px black;
 }
 
 .portfolioLinks{
     color: blue;
 }
 
+hr{
+    border-color: black;
+}
 /* 240 x 117 */
