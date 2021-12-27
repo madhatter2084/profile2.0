@@ -12,7 +12,7 @@ function Home(){
                 <div className=' animate__animated animate__zoomInLeft'>
                     <h1>Hello, I'm <span className="blue"> MATT</span></h1>
                     <p className=''>
-                        I build responsive websites 
+                        I build responsive websites
                     </p>
                 </div>
             </section>

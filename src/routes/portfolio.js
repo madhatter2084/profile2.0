@@ -1,14 +1,17 @@
 import "./portfolio.css";
 import binance from '../assets/binance.jpg';
 import oBrien from '../assets/oBrienConstruction.jpg';
-// import portfolio from '../assets/portfolio1_0.jpg'
+import portfolio from '../assets/portfolio1_0.jpg'
 import quarantine from '../assets/quarantineLean.jpg';
 import travidWallet from '../assets/travidWallet.jpg';
+import quizBuilder from '../assets/quizBuilder.jpg';
+import pwGenerator from '../assets/pwGenerator.jpg'
+import weatherApp from '../assets/weatherApp.jpg'
 
 function Portfolio(){
     return(
         <>
-        <section className="portfolio">
+        <section className="portfolio animate__animated animate__pulse">
             <div className="tile">
                 <img className="screenShot" src={binance} alt='binance screenshot' />
                 <h1>Binance</h1>
@@ -20,7 +23,7 @@ function Portfolio(){
                 </div>
             </div>
             <div className="tile">
-                <img className="screenShot" src={oBrien} alt='binance screenshot' />
+                <img className="screenShot" src={oBrien} alt='Obriens construction screenshot' />
                 <h1>O'Brien's Construction</h1>
                 <p>this is some text about the site</p>
                 <div className='links'>
@@ -30,7 +33,7 @@ function Portfolio(){
                 </div>
             </div>
             <div className="tile">
-                <img className="screenShot" src={travidWallet} alt='binance screenshot' />
+                <img className="screenShot" src={travidWallet} alt='travid wallet screenshot' />
                 <h1>Travid Wallet</h1>
                 <p>this is some text about the site</p>
                 <div className='links'>
@@ -40,13 +43,53 @@ function Portfolio(){
                 </div>
             </div>
             <div className="tile">
-                <img className="screenShot" src={quarantine} alt='binance screenshot' />
+                <img className="screenShot" src={quarantine} alt='quarantineLean screenshot' />
                 <h1>QuarantineLean</h1>
                 <p>this is some text about the site</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/Project2" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
                     <a href='https://nameless-brook-84052.herokuapp.com/' target='_blank' rel='noreferrer' className='portfolioLinks'>QuarantineLean</a>
+                </div>
+            </div>
+            <div className="tile">
+                <img className="screenShot" src={portfolio} alt='portfolio screenshot' />
+                <h1>Portfolio 1.0</h1>
+                <p>this is some text about the site</p>
+                <div className='links'>
+                    <a href="https://github.com/madhatter2084/major" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
+                    <hr></hr>
+                    <a href='http://mattrikard.com/index.html' target='_blank' rel='noreferrer' className='portfolioLinks'>mattrikard.com</a>
+                </div>
+            </div>
+            <div className="tile">
+                <img className="screenShot" src={quizBuilder} alt='binance screenshot' />
+                <h1>quizBuilder</h1>
+                <p>this is some text about the site</p>
+                <div className='links'>
+                    <a href="https://github.com/madhatter2084/quizbuilder" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
+                    <hr></hr>
+                    <a href='https://madhatter2084.github.io/quizbuilder/' target='_blank' rel='noreferrer' className='portfolioLinks'>Animal Crossing Quiz</a>
+                </div>
+            </div>
+            <div className="tile">
+                <img className="screenShot" src={pwGenerator} alt='password generator screenshot' />
+                <h1>Password Generator</h1>
+                <p>this is some text about the site</p>
+                <div className='links'>
+                    <a href="https://github.com/madhatter2084/pwGenerator" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
+                    <hr></hr>
+                    <a href='https://madhatter2084.github.io/pwGenerator/' target='_blank' rel='noreferrer' className='portfolioLinks'>Password Generator</a>
+                </div>
+            </div>
+            <div className="tile">
+                <img className="screenShot" src={weatherApp} alt='weather app screenshot' />
+                <h1>Weather App</h1>
+                <p>this is some text about the site</p>
+                <div className='links'>
+                    <a href="https://github.com/madhatter2084/weatherapp" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
+                    <hr></hr>
+                    <a href='https://madhatter2084.github.io/weatherapp/' target='_blank' rel='noreferrer' className='portfolioLinks'>Weather App</a>
                 </div>
             </div>
         </section>
