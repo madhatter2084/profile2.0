@@ -2,6 +2,8 @@ import './contact.css'
 
 function Contact(){
     return(
+        <>
+        <div id='contact'></div>
         <div className='container'>
             <div className='contact'>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Linkedin.svg" className='' alt='linkedin' />
@@ -25,6 +27,7 @@ function Contact(){
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

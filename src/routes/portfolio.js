@@ -11,6 +11,7 @@ import weatherApp from '../assets/weatherApp.jpg'
 function Portfolio(){
     return(
         <>
+        <div id='portfolio'></div>
         <section className="portfolio animate__animated animate__pulse">
             <div className="tile">
                 <img className="screenShot" src={binance} alt='binance screenshot' />
