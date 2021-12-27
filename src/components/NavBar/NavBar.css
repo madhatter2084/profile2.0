@@ -17,6 +17,10 @@ a{
     color: #9a9d97;
 }
 
+a:hover{
+    color: blue;
+}
+
 .links{
     display: flex;
     align-items: center;

@@ -1,6 +1,7 @@
 import "animate.css";
 import "./home.css"
 import Portfolio from "./portfolio"
+import Contact from './contact'
 
 function Home(){
     return (
@@ -19,6 +20,7 @@ function Home(){
         </div>
 
         <Portfolio />
+        <Contact />
         </>
     )
 }
