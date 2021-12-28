@@ -16,7 +16,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={binance} alt='binance screenshot' />
                 <h1>Binance</h1>
-                <p>this is some text about the site</p>
+                <p>Tracking stocks with third party api's. Built with HTML/CSS/JavaScript/Bootstrap.</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/Binance" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
@@ -26,7 +26,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={oBrien} alt='Obriens construction screenshot' />
                 <h1>O'Brien's Construction</h1>
-                <p>this is some text about the site</p>
+                <p>Single page contact site for a local construction company. Built with React.</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/templatetest05042021" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
@@ -36,7 +36,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={travidWallet} alt='travid wallet screenshot' />
                 <h1>Travid Wallet</h1>
-                <p>this is some text about the site</p>
+                <p>Covid tracking app built with React, Bootstrap, MongoDB, Heroku, Node.js</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/travelorsApp" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
@@ -46,7 +46,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={quarantine} alt='quarantineLean screenshot' />
                 <h1>QuarantineLean</h1>
-                <p>this is some text about the site</p>
+                <p>Meal planner built with HTML, CSS, MySQL, Express, Passport, Handlebars</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/Project2" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
@@ -56,7 +56,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={portfolio} alt='portfolio screenshot' />
                 <h1>Portfolio 1.0</h1>
-                <p>this is some text about the site</p>
+                <p>Original portfolio created duting coding bootcamp. Site built with HTML, CSS, Bootstrap</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/major" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
@@ -66,7 +66,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={quizBuilder} alt='binance screenshot' />
                 <h1>quizBuilder</h1>
-                <p>this is some text about the site</p>
+                <p>Project built with HTML, CSS, JavaScript. moment.js and JSON used to keep track of time and high scores.</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/quizbuilder" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
@@ -76,7 +76,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={pwGenerator} alt='password generator screenshot' />
                 <h1>Password Generator</h1>
-                <p>this is some text about the site</p>
+                <p>Random password generator project for coding bootcamp. HTML, CSS, JavaScript</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/pwGenerator" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
@@ -86,7 +86,7 @@ function Portfolio(){
             <div className="tile">
                 <img className="screenShot" src={weatherApp} alt='weather app screenshot' />
                 <h1>Weather App</h1>
-                <p>this is some text about the site</p>
+                <p>JavaScript weather app. Moment.js and Google location api used to show current and 5-day forecast.</p>
                 <div className='links'>
                     <a href="https://github.com/madhatter2084/weatherapp" target='_blank' rel='noreferrer' className='portfolioLinks'>GitHub</a>
                     <hr></hr>
