@@ -7,6 +7,7 @@
   text-align: center;
   align-items: center;
   margin-top: 70px;
+  background-color: #141414;
 }
 
 .tile {
@@ -14,12 +15,9 @@
   flex-direction: column;
   height: 300px;
   width: 300px;
-  border-style: solid;
-  border-width: 2px;
   margin: 20px;
   align-items: center;
   border-radius: 10%;
-  box-shadow: 10px 16px #171718;
   transition: 450ms;
 }
 

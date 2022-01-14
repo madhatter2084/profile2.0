@@ -1,24 +1,23 @@
 import "animate.css";
 import "./home.css";
-import Me from "../assets/mattAndAmanda.jpg";
+import Me from "../assets/profilePic.png";
 
 function Home() {
   return (
     <>
-      <div className="content header">
-        <div className="header__bg"></div>
+      <div className="content banner">
         <section className="aboutMe">
           <img
             src={Me}
             className="animate__animated animate__zoomIn"
             id="profilePhoto"
-            alt="My wife and I"
+            alt="Matt Rikard"
           />
-          <div className=" animate__animated animate__zoomInLeft">
-            <h1>
+          <div className=" animate__animated animate__zoomInLeft black__bg">
+            <h1 className="black__bg">
               Hello, I'm <span className="blue"> MATT</span>
             </h1>
-            <p className="">I build responsive websites</p>
+            <p className="black__bg">I build responsive websites</p>
           </div>
         </section>
       </div>

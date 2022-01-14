@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   font-size: 18px;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  background-color: #141414;
+  color: white;
 }
 
 *::-webkit-scrollbar {
   display: none;
 }
-
- 
