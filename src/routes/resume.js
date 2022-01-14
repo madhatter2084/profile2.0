@@ -52,6 +52,25 @@ function Resume() {
             <li>Iraq campaign medal with campaign star</li>
             <li>Afghanistan campaign medal</li>
           </ul>
+          <br />
+          <h1 className="resume__category">Education</h1>
+          <h2 className="resume__school">Rutgers University</h2>
+          <p className="resume__course">
+            Certificate, Full Stack Web Development (Jun - Dec 2020)
+          </p>
+          <p className="resume__courseDescription">
+            Intensive 24 week boot camp dedicated to building full stack
+            applications with HTML5, CSS, Vanilla JavaScript, jQuery, REACT,
+            Node, NPM, Express, MongoDB, & MySQL.
+          </p>
+          <br />
+          <br />
+          <h2 className="resume__school">Hunter College</h2>
+          <p className="resume__course">History (2011-2014)</p>
+          <p className="resume__courseDescription">
+            Incomplete BA with focus on history. After accumulating ~80 credit
+            hours, I took some time off school to be with my newborn child.
+          </p>
         </div>
       </div>
     </>

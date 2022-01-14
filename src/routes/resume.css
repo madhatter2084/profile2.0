@@ -30,4 +30,9 @@ ul {
 
 .resume__category {
   margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.resume__school {
+  color: rgb(0, 179, 170);
 }
