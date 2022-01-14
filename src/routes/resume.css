@@ -1,8 +1,33 @@
 .resume {
-  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .resume__title {
-  margin-top: 20px;
   margin-left: 20px;
+  margin-top: 150px;
+}
+
+.resume__content {
+  text-align: center;
+  max-width: 800px;
+}
+
+.resume__job {
+  color: rgb(0, 179, 170);
+}
+
+.resume__jobDescription {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resume__category {
+  margin-bottom: 20px;
 }

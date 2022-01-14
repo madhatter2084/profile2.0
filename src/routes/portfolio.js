@@ -173,8 +173,8 @@ function Portfolio() {
           />
           <h1 className="tile__title">quizBuilder</h1>
           <p>
-            Project built with HTML, CSS, JavaScript. moment.js and JSON used to
-            keep track of time and high scores.
+            Built with HTML, CSS, JavaScript. moment.js and JSON used to keep
+            track of time and high scores.
           </p>
           <div className="links">
             <a
@@ -236,7 +236,7 @@ function Portfolio() {
           <h1 className="tile__title">Weather App</h1>
           <p>
             JavaScript weather app. Moment.js and Google location api used to
-            show current and 5-day forecast.
+            show forecast.
           </p>
           <div className="links">
             <a

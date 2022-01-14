@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   height: 80px;
-  background-color: black;
+  background-color: #141414;
   text-align: center;
   justify-content: center;
   position: -webkit-sticky;

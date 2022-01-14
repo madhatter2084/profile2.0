@@ -5,6 +5,8 @@
   scrollbar-width: none;
   background-color: #141414;
   color: white;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
 }
 
 *::-webkit-scrollbar {

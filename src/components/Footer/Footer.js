@@ -7,6 +7,7 @@ function Footer() {
       <div className="social">
         <a
           href="https://github.com/madhatter2084"
+          className="black__bg"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -14,12 +15,13 @@ function Footer() {
         </a>
         <a
           href="https://www.linkedin.com/in/matthew-rikard-6bbb1893/"
+          className="black__bg"
           target="_blank"
           rel="noreferrer noopener"
         >
           <FaLinkedin className="social__icon" />
         </a>
-        <a href="mailto:matthew.rikard@gmail.com">
+        <a href="mailto:matthew.rikard@gmail.com" className="black__bg">
           <FaEnvelope className="social__icon" />
         </a>
       </div>

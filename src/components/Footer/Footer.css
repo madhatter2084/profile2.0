@@ -3,11 +3,13 @@
   height: 50px;
   width: 100%;
   justify-content: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: black;
 }
 
 .social__icon {
   height: 32px;
   width: 32px;
   margin: 10px;
+  background-color: black;
 }
