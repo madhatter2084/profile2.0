@@ -1,19 +1,27 @@
 import "./Footer.css";
-import git from "./github.png";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 function Footer() {
   return (
     <>
       <div className="social">
-        <button className="social__btn">
-          <image src={git} className="social__icon"></image>
-        </button>
-        <button className="social__btn">
-          <image className="social__icon"></image>
-        </button>
-        <button className="social__btn">
-          <image className="social__icon"></image>
-        </button>
+        <a
+          href="https://github.com/madhatter2084"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <FaGithub className="social__icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/matthew-rikard-6bbb1893/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <FaLinkedin className="social__icon" />
+        </a>
+        <a href="mailto:matthew.rikard@gmail.com">
+          <FaEnvelope className="social__icon" />
+        </a>
       </div>
     </>
   );

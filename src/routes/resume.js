@@ -1,7 +1,11 @@
-function Resume(){
-    return(
-        <h1>there's no effing way</h1>
-    )
+import "./resume.css";
+
+function Resume() {
+  return (
+    <div className="resume">
+      <h1 className="resume__title">Resume</h1>
+    </div>
+  );
 }
 
-export default Resume
+export default Resume;

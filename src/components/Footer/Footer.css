@@ -2,11 +2,12 @@
   display: flex;
   height: 50px;
   width: 100%;
-  justify-content: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.social__btn {
-  height: 20px;
-  width: 20px;
+.social__icon {
+  height: 32px;
+  width: 32px;
   margin: 10px;
 }

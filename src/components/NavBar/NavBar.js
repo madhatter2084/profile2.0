@@ -4,15 +4,12 @@ function NavBar() {
   return (
     <>
       <nav className="nav">
-        <div className="links black__bg">
+        <div className="links black__bg animate__animated animate__fadeInDown">
           <a href="#home" className="name black__bg">
             Matt Rikard
           </a>
           <a href="#portfolio" className="black__bg">
-            Portfolio
-          </a>
-          <a href="#contact" className="black__bg">
-            Contact
+            Projects
           </a>
           <a href="#resume" className="black__bg">
             Resume
