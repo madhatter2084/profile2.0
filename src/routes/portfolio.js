@@ -142,7 +142,7 @@ function Portfolio() {
           />
           <h1 className="tile__title">Portfolio 1.0</h1>
           <p>
-            Original portfolio created duting coding bootcamp. Site built with
+            Original portfolio created during coding bootcamp. Site built with
             HTML, CSS, Bootstrap
           </p>
           <div className="links">

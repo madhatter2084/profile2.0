@@ -39,7 +39,7 @@ function Resume() {
           <br />
           <br />
           <h2 className="resume__job">
-            Corporal | Aviation Radio Technician (United States Marin Corps)
+            Corporal | Aviation Radio Technician (United States Marine Corps)
           </h2>
           <p className="resume__jobDescription">
             USMC leader and mentor responsible for mainting radio networks for
