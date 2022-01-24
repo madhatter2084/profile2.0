@@ -173,8 +173,8 @@ function Portfolio() {
           />
           <h1 className="tile__title">quizBuilder</h1>
           <p>
-            Built with HTML, CSS, JavaScript. moment.js and JSON used to keep
-            track of time and high scores.
+            Built with HTML, CSS, JavaScript. moment.js and JSON to keep track
+            of time and high scores.
           </p>
           <div className="links">
             <a
