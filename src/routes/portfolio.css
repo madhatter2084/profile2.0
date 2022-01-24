@@ -18,10 +18,9 @@
   flex-direction: column;
   height: 300px;
   width: 300px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 30px;
+  margin: 30px;
   align-items: center;
+  border-style: solid;
   border-radius: 10%;
   transition: 450ms;
 }

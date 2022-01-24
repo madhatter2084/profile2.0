@@ -1,9 +1,22 @@
 import "./NavBar.css";
+import React, { useEffect, useState } from "react";
 
 function NavBar() {
+  const [show, handleShow] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 350) {
+        handleShow(true);
+      } else handleShow(false);
+    });
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
+
   return (
     <>
-      <nav className="nav">
+      <nav className={`nav ${show && "nav__black"}`}>
         <div className="links animate__animated animate__fadeInDown">
           <a href="#home" className="name">
             Matt Rikard
