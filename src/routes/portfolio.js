@@ -156,7 +156,7 @@ function Portfolio() {
             </a>
             <hr></hr>
             <a
-              href="http://mattrikard.com/index.html"
+              href="https://madhatter2084.github.io/major/"
               target="_blank"
               rel="noreferrer"
               className="portfolioLinks"
