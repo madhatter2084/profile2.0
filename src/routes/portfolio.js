@@ -7,6 +7,7 @@ import travidWallet from "../assets/travidWallet.jpg";
 import quizBuilder from "../assets/quizBuilder.jpg";
 import pwGenerator from "../assets/pwGenerator.jpg";
 import weatherApp from "../assets/weatherApp.jpg";
+import apexProject from "../assets/apexProject.png";
 
 function Portfolio() {
   return (
@@ -14,6 +15,37 @@ function Portfolio() {
       <div id="portfolio"></div>
       <h1 className="portfolio__title">Projects</h1>
       <section className="portfolio animate__animated animate__pulse">
+        <div className="portfolio__tile">
+          <img
+            className="screenShot"
+            src={apexProject}
+            alt="apexProject screenshot"
+          />
+          <h1 className="tile__title">apexProject</h1>
+          <p>
+            Stat tracking and in-game item tracking for Apex Legends. Built with
+            React.js.
+          </p>
+          <div className="links">
+            <a
+              href="https://github.com/madhatter2084/apexProject"
+              target="_blank"
+              rel="noreferrer"
+              className="portfolioLinks"
+            >
+              GitHub
+            </a>
+            <hr></hr>
+            <a
+              href="https://apexproject-7c732.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="portfolioLinks"
+            >
+              Project Apex
+            </a>
+          </div>
+        </div>
         <div className="portfolio__tile">
           <img className="screenShot" src={binance} alt="binance screenshot" />
           <h1 className="tile__title">Binance</h1>

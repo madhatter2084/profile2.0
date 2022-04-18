@@ -23,6 +23,7 @@
   border-style: solid;
   border-radius: 10%;
   transition: 450ms;
+  box-shadow: 10px 10px 10px #000000;
 }
 
 .tile:hover {
@@ -42,6 +43,7 @@ p {
   height: 117px;
   margin: 10px;
   box-shadow: 10px 5px 5px black;
+  border-radius: 10px;
 }
 
 .portfolioLinks {
