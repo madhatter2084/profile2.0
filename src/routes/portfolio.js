@@ -1,4 +1,5 @@
 import "./portfolio.css";
+import PortfolioTile from "../components/PortfolioTile";
 import binance from "../assets/binance.jpg";
 import oBrien from "../assets/oBrienConstruction.jpg";
 import portfolio from "../assets/portfolio1_0.jpg";
@@ -15,281 +16,86 @@ function Portfolio() {
       <div id="portfolio"></div>
       <h1 className="portfolio__title">Projects</h1>
       <section className="portfolio animate__animated animate__pulse">
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={apexProject}
-            alt="apexProject screenshot"
-          />
-          <h1 className="tile__title">apexProject</h1>
-          <p>
-            Stat tracking and in-game item tracking for Apex Legends. Built with
-            React.js.
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/apexProject"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://apexproject-7c732.web.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              Project Apex
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img className="screenShot" src={binance} alt="binance screenshot" />
-          <h1 className="tile__title">Binance</h1>
-          <p>
-            Tracking stocks with third party api's. Built with
-            HTML/CSS/JavaScript/Bootstrap.
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/Binance"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://tjaved12.github.io/Binance/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              Binance
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={oBrien}
-            alt="Obriens construction screenshot"
-          />
-          <h1 className="tile__title">O'Brien's Construction</h1>
-          <p>
-            Single page contact site for a local construction company. Built
-            with React.
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/templatetest05042021"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://obriensconstruction.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              O'Brien's
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={travidWallet}
-            alt="travid wallet screenshot"
-          />
-          <h1 className="tile__title">Travid Wallet</h1>
-          <p>
-            Covid tracking app built with React, Bootstrap, MongoDB, Heroku,
-            Node.js
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/travelorsApp"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://still-waters-92313.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              TravidWallet
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={quarantine}
-            alt="quarantineLean screenshot"
-          />
-          <h1 className="tile__title">QuarantineLean</h1>
-          <p>
-            Meal planner built with HTML, CSS, MySQL, Express, Passport,
-            Handlebars
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/Project2"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://nameless-brook-84052.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              QuarantineLean
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={portfolio}
-            alt="portfolio screenshot"
-          />
-          <h1 className="tile__title">Portfolio 1.0</h1>
-          <p>
-            Original portfolio created during coding bootcamp. Site built with
-            HTML, CSS, Bootstrap
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/major"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://madhatter2084.github.io/major/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              portfolio1.0
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={quizBuilder}
-            alt="binance screenshot"
-          />
-          <h1 className="tile__title">quizBuilder</h1>
-          <p>
-            Built with HTML, CSS, JavaScript. moment.js and JSON to keep track
-            of time and high scores.
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/quizbuilder"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://madhatter2084.github.io/quizbuilder/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              Animal Crossing Quiz
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={pwGenerator}
-            alt="password generator screenshot"
-          />
-          <h1 className="tile__title">Password Generator</h1>
-          <p>
-            Random password generator project for coding bootcamp. HTML, CSS,
-            JavaScript
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/pwGenerator"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://madhatter2084.github.io/pwGenerator/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              Password Generator
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__tile">
-          <img
-            className="screenShot"
-            src={weatherApp}
-            alt="weather app screenshot"
-          />
-          <h1 className="tile__title">Weather App</h1>
-          <p>
-            JavaScript weather app. Moment.js and Google location api used to
-            show forecast.
-          </p>
-          <div className="links">
-            <a
-              href="https://github.com/madhatter2084/weatherapp"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              GitHub
-            </a>
-            <hr></hr>
-            <a
-              href="https://madhatter2084.github.io/weatherapp/"
-              target="_blank"
-              rel="noreferrer"
-              className="portfolioLinks"
-            >
-              Weather App
-            </a>
-          </div>
-        </div>
+        <PortfolioTile
+          source={apexProject}
+          title="apexProject"
+          description="Stat tracking and in-game item tracking for Apex Legends. Built with
+            React.js."
+          github="https://github.com/madhatter2084/apexProject"
+          url="https://apexproject-7c732.web.app/"
+        />
+
+        <PortfolioTile
+          source={binance}
+          title="Binance"
+          description="Tracking stocks with third party api's. Built with
+          HTML/CSS/JavaScript/Bootstrap."
+          github="https://github.com/madhatter2084/Binance"
+          url="https://tjaved12.github.io/Binance/"
+        />
+
+        <PortfolioTile
+          source={oBrien}
+          title="O'Brien's Construction"
+          description="Single page contact site for a local construction company. Built
+            with React."
+          github="https://github.com/madhatter2084/templatetest05042021"
+          url="https://obriensconstruction.com/"
+        />
+
+        <PortfolioTile
+          source={travidWallet}
+          title="Travid Wallet"
+          description="Covid tracking app built with React, Bootstrap, MongoDB, Heroku,
+            Node.js"
+          github="https://github.com/madhatter2084/travelorsApp"
+          url="https://still-waters-92313.herokuapp.com/"
+        />
+
+        <PortfolioTile
+          source={quarantine}
+          title="QuarantineLean"
+          description="Meal planner built with HTML, CSS, MySQL, Express, Passport,
+            Handlebars."
+          github="https://github.com/madhatter2084/Project2"
+          url="https://nameless-brook-84052.herokuapp.com/"
+        />
+
+        <PortfolioTile
+          source={portfolio}
+          title="Portfolio 1.0"
+          description="Original portfolio created during coding bootcamp. Site built with
+            HTML, CSS, Bootstrap."
+          github="https://github.com/madhatter2084/major"
+          url="https://madhatter2084.github.io/major/"
+        />
+
+        <PortfolioTile
+          source={quizBuilder}
+          title="quizBuilder"
+          description="Built with HTML, CSS, JavaScript. moment.js and JSON to keep track
+            of time and high scores."
+          github="https://github.com/madhatter2084/quizbuilder"
+          url="https://madhatter2084.github.io/quizbuilder/"
+        />
+
+        <PortfolioTile
+          source={pwGenerator}
+          title="Password Generator"
+          description="Random password generator project for coding bootcamp. HTML, CSS,
+            JavaScript."
+          github="https://github.com/madhatter2084/pwGenerator"
+          url="https://madhatter2084.github.io/pwGenerator/"
+        />
+
+        <PortfolioTile
+          source={weatherApp}
+          title="Weather App"
+          description="JavaScript weather app. Moment.js and Google location api used to
+            show forecast."
+          github="https://github.com/madhatter2084/weatherapp"
+          url="https://madhatter2084.github.io/weatherapp/"
+        />
       </section>
     </>
   );
